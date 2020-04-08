@@ -15,7 +15,78 @@
     width: 190px;
     top: 0;
     left: 0;
+    position: relative;
 }
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.title i{
+    float:left;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: white;
+
+}
+.title h1{
+    float:left;
+    margin-top: 10px;
+    color:white;
+}
+.clearfix{
+    clear: both;
+}
+.list{
+    margin-left: 10px;
+}
+.list ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+.list ul i{
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.title-list ul{
+    padding-top: 15px;
+}
+.playlist{
+    margin-left: 13px;
+}
+.playlist ul{
+    padding-top: 5px;
+    list-style-type: none;
+}
+.playlist ul>li{
+    padding-bottom: 7px;
+}
+
+.install{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 20px;
+}
+.fa-arrow-alt-circle-down{
+    margin-right: 12px;
+    margin-left: 5px;
+}
+.fa-user{
+    margin-right: 12px;
+}
+
+
+hr{
+    width: 85%;
+    margin-left: auto;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    border-width: 1px;
+}
+
+
 /**main**/
 main{
     height: calc(100% - 100px);
@@ -30,7 +101,5 @@ footer{
     display: flex;
     justify-content: flex-end;
     clear:both;
-}
-.title-list{
 
 }
