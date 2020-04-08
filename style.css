@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*nav sinistra**/
+#wrapper{
+    height: 100vh;
+    width: 100%;
+}
+.nav-left{
+    height: calc(100% - 100px);
+    background-color: red;
+    float:left;
+    width: 190px;
+    top: 0;
+    left: 0;
+}
+/**main**/
+main{
+    height: calc(100% - 100px);
+    background-color: green;
+    width: calc(100% - 190px);
+    float:left;
+}
+/**footer**/
+footer{
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    justify-content: flex-end;
+    clear:both;
+}
