@@ -63,7 +63,6 @@
 .playlist ul>li{
     padding-bottom: 7px;
 }
-
 .install{
     position: absolute;
     bottom: 10px;
@@ -76,8 +75,6 @@
 .fa-user{
     margin-right: 12px;
 }
-
-
 hr{
     width: 85%;
     margin-left: auto;
@@ -85,14 +82,29 @@ hr{
     margin-bottom: 10px;
     border-width: 1px;
 }
-
-
 /**main**/
 main{
     height: calc(100% - 100px);
     background-color: green;
     width: calc(100% - 190px);
     float:left;
+}
+.main-top{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-top a{
+    text-decoration: none;
+    text-transform:uppercase;
+}
+.link-hr hr{
+    width: 85%;
+    border-width: 1px;
 }
 /**footer**/
 footer{
