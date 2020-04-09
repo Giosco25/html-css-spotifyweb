@@ -94,17 +94,20 @@ main{
     width: 100%;
     background-color: yellow;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    padding-left: 70px;
 }
 
 .main-top a{
     text-decoration: none;
     text-transform:uppercase;
+    padding-right: 20px;
 }
 .link-hr hr{
     width: 85%;
     border-width: 1px;
+    padding-right: 20px;
 }
 .cover{
     width: 220px;
