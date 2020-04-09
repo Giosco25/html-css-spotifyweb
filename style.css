@@ -93,7 +93,7 @@ main{
     background: linear-gradient(90deg, rgba(0,35,36,0.835171568627451) 0%, rgba(9,121,118,0.8939950980392157) 33%, rgba(0,254,255,1) 100%);
     width: calc(100% - 190px);
     float:left;
-    overflow: auto;
+    overflow-y: auto;
 }
 .main-top{
     height: 100px;
@@ -108,7 +108,7 @@ main{
 .main-top a{
     text-decoration: none;
     text-transform:uppercase;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 a{
     position: relative;
@@ -120,11 +120,12 @@ a{
 a.active::after{
     content:"";
     position:absolute;
-    left:0;
+    left:50%;
     bottom:-10px;
-    width:75%;
+    width:60%;
     height: 2px;
     background-color: black;
+    transform: translateX(-50%);
 }
 .main-center{
     max-width: 1000px;
@@ -169,17 +170,48 @@ footer{
     height: 100px;
     background-color: #333;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     clear:both;
 
 }
 .footer-left{
-    width: 200px;
+    width: 190px;
     height: 100px;
-    background-color: yellow;
+    background-color: #333;
 }
+
 .footer-center{
-    width: 200px;
+    width: 986px;
     height: 100px;
     background-color: red;
+}
+.footer-right{
+    width: 190px;
+    height: 100px;
+    background-color: black;
+}
+.img-par{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position:relative;
+}
+.img-par img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.img-par p{
+    position: absolute;
+    left:79px;
+    top: 14px;
+    color:white;
+}
+.img-par i{
+    position: absolute;
+    left:141px;
+    top: 20px;
+    color:white
 }
