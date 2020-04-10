@@ -183,12 +183,19 @@ footer{
 .footer-center{
     width: 986px;
     height: 100px;
-    background-color: red;
+    background-color: #333;
+    justify-content: center;
+    display: flex;
+    padding-top: 12px;
+    position: relative;
 }
 .footer-right{
     width: 190px;
     height: 100px;
-    background-color: black;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .img-par{
     width: 70px;
@@ -214,4 +221,83 @@ footer{
     left:141px;
     top: 20px;
     color:white
+}
+.icon-footer i{
+    padding-right: 30px;
+    color:white;
+}
+.icon-right i{
+    padding-right: 10px;
+}
+.number-left{
+    position: absolute;
+    left: 10%;
+    bottom: 32%;
+    color:#777;
+}
+.number-right{
+    position: absolute;
+    right: 12%;
+    bottom: 32%;
+    color:#777;
+}
+.line{
+    width: 251px;
+    position: relative;
+
+}
+.line::before,
+.line::after{
+    content: '';
+    left: -224px;
+    width: 330px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.4;
+}
+.line::before {
+    left:125px;
+}
+.line::after{
+    right:0;
+}
+.line i{
+    font-size: 19px;
+    margin-left: 105px;
+    color:white;
+}
+.line{
+    margin-top: 5px;
+}
+.line-due{
+    width: 123px;
+
+}
+.icon-right{
+    margin-right: 53px;
+    position: relative;
+    color:white;
+}
+.line-due::before,
+.line-due::after{
+    content: '';
+    left: 83px;
+    width: 95px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+    opacity: 0.4;
+}
+.circle-due{
+        margin-left: 103px;
+        top: 1px;
+        left: 5px;
+        position: absolute;
+        font-size: 18px;
+        color: white;
 }
