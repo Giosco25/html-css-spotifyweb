@@ -109,6 +109,7 @@ main{
     text-decoration: none;
     text-transform:uppercase;
     margin-right: 20px;
+
 }
 a{
     position: relative;
@@ -126,6 +127,12 @@ a.active::after{
     height: 2px;
     background-color: black;
     transform: translateX(-50%);
+}
+.color-title{
+    color:black;
+}
+.color-title:hover{
+    color:white;
 }
 .main-center{
     max-width: 1000px;
